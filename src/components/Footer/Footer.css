@@ -1,0 +1,33 @@
+.footer-menu {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .menu{
+      margin-bottom: 20px;
+  }
+  .menu:hover {
+    color: red;
+  }
+  .footer-input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color:wheat;
+  }
+  .footer-container {
+    background-color: #0c0c11;
+    padding: 20px;
+    color: rgb(216, 209, 209);
+  }
+  .gallery-img{
+    width: 100px;
+    height: 80px;
+    margin: 2px;
+    border-radius: 5px;
+  }
+  .footer-gal{
+    margin-right: 100px;
+  }
