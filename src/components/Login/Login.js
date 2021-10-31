@@ -14,7 +14,7 @@ const Login = () => {
         signInUsingGoogle()
         .then((result) => {
            history.push(redirect_uri);
-          //  window.location.reload(); 
+           window.location.reload(); 
           })
          
     }

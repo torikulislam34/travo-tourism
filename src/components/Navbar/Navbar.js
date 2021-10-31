@@ -26,7 +26,10 @@ const Navbar = () => {
                     <Link to ='/services'>SERVICES</Link>
                  </li>
                  <li className="nav-item">
-                    <Link to='/trainers'>EXPARTS</Link>
+                    {
+                       user?.email?
+                       <Link to='/booktour'>BOOKIG-TOUR</Link>: ''
+                    }
                  </li>
                  <li className="nav-item">
                     <Link to='/blog'>BLOG</Link>
